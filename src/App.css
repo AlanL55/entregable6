@@ -1,0 +1,231 @@
+/* HeaderMusic */
+.header{
+    width: 100%;
+    background: linear-gradient(rgb(64, 9, 84), rgb(112, 8, 74), rgb(68, 6, 92));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__title{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0.5em;
+}
+.header__modal__button{
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 3px solid white;
+    border-radius:3em ;
+    padding: 0.7em;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+.header__modal__button:hover{
+    background-color: rgba(255, 192, 203, 0.456);
+}
+.header__container{
+    position: absolute;
+    right: 15px;
+    top: 70px;
+}
+.header__modal{
+    width: 410px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    top: 5vh;
+    left: 450%;
+    border-radius: 1em;
+    background:radial-gradient( rgb(105, 8, 112), rgb(39, 2, 65), rgb(144, 36, 156)) ;
+    color: blue;
+    padding: 1em;
+    transition: transform  500ms ease;
+    transform: translateX(500px);
+}
+.true{
+    transform: translateX(0px);
+    transition: transform 500ms ease;
+}
+.header__cassette{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+}
+.header__label, .header__input{
+    font-size: 1.1em;
+    width: 360px;
+    height: 45px;
+    margin: 0.3em;
+    background-color: white;
+    border-radius: 0.3em;
+}
+#message{
+    height:150px;
+}
+.header__img{
+    display: flex;
+}
+.header__background{
+    width: 400px;
+}
+
+.header__list{
+    max-height: 180px;
+    overflow-y: scroll;
+}
+.header__button{
+    background-color: transparent;
+    color: pink;
+    font-size: 1em;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+    border-color: pink;
+}
+.header__button:hover{
+    background-color: rgba(255, 192, 203, 0.208);
+}
+/* Home Page */
+.home__page{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.home__form{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+    background:linear-gradient(rgb(103, 14, 150), rgb(153, 26, 147), rgb(150, 28, 161));
+}
+.home__select, .home__input{
+    color: white;
+    background-color: transparent;
+    width: auto;
+    font-size: 1.5em;
+
+}
+.home__select{
+    background-color: purple;
+    border-color: purple;
+}
+.home__container{
+    margin: 2em;
+    border-radius: 1em;
+    padding: 1em;
+    max-width: 450px;
+    min-height: 100%;
+    background: radial-gradient(rgb(120, 23, 172), rgb(173, 50, 169), rgb(45, 7, 49));
+}
+/* Track List */
+.track__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+.track__header{
+    display: flex;
+    width: 80px;
+}
+.track__img{
+    width: 100%;
+}
+.track__article{
+    width: 60%;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+.track__name, .track__list{
+    color: white;
+}
+.bx-minus-circle{
+    color: white;
+    transform: scale(1.4);
+}
+/* TrackPage */
+.track__page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.track__back{
+    left: 0;
+    position: absolute;
+    padding: 1em;
+    padding-left: 2em;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+.track__back:hover{
+    color: pink;
+}
+
+/* TrackInfo */
+.info__track{
+    background:radial-gradient(rgb(156, 25, 179), rgb(131, 25, 201), rgb(179, 34, 164));
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8em;
+    border-radius: 2em;
+}
+.info__article{
+    padding: 2em;
+    display: flex;
+    gap: 2em;
+    color: white;
+}
+.info__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.info__img{
+    border-radius: 50%;
+}
+.info__song{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info__artist{
+    color: white;    
+}
+.info__song__name{
+    color: white;
+}
+.info__detail{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.bx-play{
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+}
+.bx-play:hover{
+    color: gray;
+}
+/* TracksRelated */
+.related__tracks{
+    border-radius: 2em;
+    background: linear-gradient(rgb(65, 65, 207), rgba(43, 171, 183, 0.652), rgb(57, 57, 213));
+    padding: 1em;
+    width: 450px;
+}
+.related__title{
+    color: white;
+    text-align: center;
+}
+/* ArtistPage */

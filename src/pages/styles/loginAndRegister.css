@@ -1,0 +1,135 @@
+/* LoginPage */
+.login__page{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__img{
+    width: 300px;
+    height: 400px;
+    padding: 2em;
+}
+.login__article{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.login__title{
+    color: white;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: white;
+}
+.login__space{
+    display: flex;
+    flex-direction: column;
+    color: rgba(177, 175, 175, 0.66);
+}
+.login__label{
+    margin-bottom: 2em;
+}
+hr{
+    width: 100%;
+}
+#email, #password, #name{
+    font-size: 1.5em;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 0.5em;
+}
+.login__register{
+    color: white;
+}
+.login__button{
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 1.5em;
+    border: 3px solid purple;
+    cursor: pointer;
+}
+.login__button:hover{
+    background-color: rgba(137, 43, 226, 0.421);
+}
+.login__link{
+    color: white;
+}
+.login__link:hover{
+    color: aqua;
+}
+@media(max-width:600px){
+    .login__img{
+        display: none;
+    }
+}
+/* RegisterPage */
+.register__page{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register__img{
+    width: 300px;
+    height: 400px;
+    padding: 2em;
+}
+.register__article{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.register__title{
+    text-align: center;
+    color: white;
+}
+.register__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: white;
+}
+.register__space{
+    display: flex;
+    flex-direction: column;
+    color: rgba(177, 175, 175, 0.66);
+}
+.register__label{
+    margin-bottom: 0.5em;
+}
+hr{
+    width: 100%;
+}
+.register__login{
+    color: white;
+}
+.register__button{
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 1.5em;
+    border: 3px solid purple;
+    cursor: pointer;
+}
+.register__button:hover{
+    background-color: rgba(137, 43, 226, 0.421);
+}
+.register__link{
+    color: white;
+}
+.register__link:hover{
+    color: aqua;
+}
+@media(max-width:600px){
+    .register__img{
+        display: none;
+    }
+}

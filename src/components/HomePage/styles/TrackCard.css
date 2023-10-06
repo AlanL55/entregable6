@@ -1,0 +1,57 @@
+.card__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+.card__container:hover{
+    background-color: rgba(144, 143, 143, 0.594);
+}
+.card__header{
+    margin: 0.2em;
+    width: 100px;
+}
+.card__img{
+    width: 100%;
+}
+.card__list{
+    display: grid;
+    gap: 0.2em;
+    margin: 0.2em;
+    width: 80%;
+    text-wrap: nowrap;
+    overflow-x: hidden;
+}
+.card__list__title{
+    color: transparent;
+}
+.card__list__name{
+    color: white;
+}
+.card__list__name:hover{
+    color:pink;
+}
+.card__list__artist{
+    cursor: pointer;
+    color: lightgray;
+}
+.card__list__artist:hover{
+    transform: scale(1.01);
+    color: yellow;
+}
+.card__buttons{
+    display: flex;
+}
+.bxl-spotify{
+    color: greenyellow;
+    margin: 0.5em;
+    font-size: 2em;
+}
+.card__circle{
+    background-color: transparent;
+    border: none;
+}
+.bx-plus-circle{
+    font-size: 2em;
+    color: white;
+}

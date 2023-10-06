@@ -1,0 +1,27 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    font-family: 'Inclusive Sans', sans-serif;
+    background-color: rgba(10, 3, 15, 0.95);
+}
+h1, h2, h3, ul, hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+input{
+    outline: none;
+    border: none;
+    font-family: inherit;
+}
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+
